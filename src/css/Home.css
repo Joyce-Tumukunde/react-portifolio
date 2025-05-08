@@ -1,0 +1,112 @@
+.home {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 4rem;
+    gap: 0.3rem;
+  }
+  
+  .home__content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .home__content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+  }
+  
+  .bold-text {
+    font-weight: 800;
+  }
+  
+  .outlined-text {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: white;
+    background-color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    display: inline-block;
+    -webkit-text-stroke: 1.5px black;
+  }
+  
+  .home__subtitle {
+    font-size: 2rem;
+  }
+  
+  .home__description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  .home-icons {
+    margin-top: 1.5rem;
+  }
+  
+  .home-icons span {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .social-icon {
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border: 2px solid black;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .home__image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home-banner {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  
+    .home__content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .home__subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .home__description {
+      font-size: 0.95rem;
+    }
+  
+    .home-icons span {
+      justify-content: center;
+    }
+  }
+  

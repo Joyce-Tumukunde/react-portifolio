@@ -1,0 +1,130 @@
+.work {
+    padding: 2rem 4rem;
+    background-color: #000;
+    color: white;
+  }
+  
+  .work .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .work .section-title span {
+    color: #fff;
+  }
+  
+  .work .work-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .work .work-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .work .work-card.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .work .work-left_side,
+  .work .work-right_side {
+    flex: 1;
+  }
+  
+  .work .work-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .work .work-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .work .work-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #e5e7eb;
+  }
+  
+  .work .work-description {
+    font-size: 1rem;
+    color: #d1d5db;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .work .work-link {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .work .work-link i {
+    font-size: 1.2rem;
+  }
+  
+  .work .work-link:hover {
+    color: #ccc;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .work {
+      padding: 2rem 1rem;
+    }
+  
+    .work .work-list {
+      gap: 2rem;
+    }
+  
+    .work .work-card {
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .work .work-card.reverse {
+      flex-direction: column-reverse;
+    }
+  
+    .work .work-left_side,
+    .work .work-right_side {
+      flex: 1 1 100%;
+    }
+  
+    .work .work-image {
+      width: 100%;
+    }
+  
+    .work .work-title {
+      font-size: 1.5rem;
+    }
+  
+    .work .work-subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .work .work-description {
+      font-size: 0.9rem;
+    }
+  
+    .work .work-link {
+      font-size: 1rem;
+      justify-content: center;
+    }
+  }
+  
