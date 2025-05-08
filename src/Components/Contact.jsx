@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import '../css/Contact.css'; // Make sure this file contains the appropriate styles
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faFacebookF,
+
   faRedditAlien,
-  faTwitter,
   faDiscord,
   faInstagram,
   faLinkedinIn,
